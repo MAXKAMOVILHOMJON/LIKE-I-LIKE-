@@ -1,0 +1,13 @@
+@import"./base/reset";
+@import"./components/button";
+@import"./themes/dark.scss";
+@import"./utils/variables";
+@import"./layout/header";
+@import"./layout/footer";
+@import"./vendors/bootstrap.scss";
+@import"./pages/home";
+@import"./pages/about";
+@import"./pages/img";
+body{
+    background-color: black;
+}

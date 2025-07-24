@@ -1,0 +1,37 @@
+#home{
+    background-image: url("../../img/home.jpg");
+    background-size: cover;  
+    background-position: center center;  
+    background-repeat: no-repeat; 
+    color: white;
+    height: 750px;
+ .nav{
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+    ul{
+        display: flex;
+        font-size: 32px;
+         margin-left: 1100px;
+         margin-bottom: 30px;
+    }
+}
+.toten{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 600px;
+    
+        h1{
+            font-size: 45px;
+            text-align: center;
+        }
+      .loge{
+        max-width: 400px;
+         margin-left: 480px;
+      }
+
+        .cos{
+             margin-top: 200px;
+             margin-left: 600px;
+        }
+}
+}

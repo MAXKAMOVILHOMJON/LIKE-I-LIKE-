@@ -1,0 +1,35 @@
+.Aout{
+    background-color: rgba(19, 19, 18, 09);
+    position: relative;
+     padding :50px  50px;
+
+    .hox{
+        max-width: 500px;
+        color: rgba(255, 255, 255, 1);
+        .teg{
+            font-size:32px;
+        }
+        
+        @media (max-width:900px) {
+            text-align: center;
+            
+        }
+    }
+    .meta{
+        position: absolute;
+       left: 1000px;
+       bottom: 60px;
+       .oq{
+        color: white;
+       }
+       @media(max-width:1000px ) {
+        display: none;
+        
+       }
+    }
+}
+.top{
+    display: flex;
+    color: white;
+    background-color: black;
+}

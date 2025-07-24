@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#home {
+  background-image: url("../../img/home.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 750px;
+}
+#home .nav {
+  padding: 20px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#home .nav ul {
+  display: flex;
+  font-size: 32px;
+  margin-left: 1100px;
+  margin-bottom: 30px;
+}
+#home .toten {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 600px;
+}
+#home .toten h1 {
+  font-size: 45px;
+  text-align: center;
+}
+#home .toten .loge {
+  max-width: 400px;
+  margin-left: 480px;
+}
+#home .toten .cos {
+  margin-top: 200px;
+  margin-left: 600px;
+}
+
+.Aout {
+  background-color: rgb(19, 19, 18);
+  position: relative;
+  padding: 50px 50px;
+}
+.Aout .hox {
+  max-width: 500px;
+  color: rgb(255, 255, 255);
+}
+.Aout .hox .teg {
+  font-size: 32px;
+}
+@media (max-width: 900px) {
+  .Aout .hox {
+    text-align: center;
+  }
+}
+.Aout .meta {
+  position: absolute;
+  left: 1000px;
+  bottom: 60px;
+}
+.Aout .meta .oq {
+  color: white;
+}
+@media (max-width: 1000px) {
+  .Aout .meta {
+    display: none;
+  }
+}
+
+.top {
+  display: flex;
+  color: white;
+  background-color: black;
+}
+
+.jpg {
+  background-color: rgb(3, 0, 2);
+  max-width: 1300px;
+  height: 700px;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+.jpg .pej img {
+  max-width: 300px;
+  height: 250px;
+}
+.jpg .btn {
+  color: white;
+  width: 319px;
+  height: 52px;
+  background-color: rgb(19, 19, 19);
+  opacity: 1;
+  position: absolute;
+  left: 500px;
+  top: 600px;
+}
+@media (max-width: 1000px) {
+  .jpg .btn {
+    display: none;
+  }
+}
+
+body {
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
